@@ -2,8 +2,10 @@
 
 a simple way of connecting to a USV to see onboard telemetry data. in short, the board acts as a WiFi access point from which the user can connect to view a basic webpage that:   
 * displays vehicle health and lifetime data    
-* accepts client input for configuration     
+* accepts client input for configuration   
+
 and, if it's reasonable:   
+
 * allows simple file transfer   
 * connects to greater WAN networks to relay health stats to a cloud server, to track asset statuses (!!!)
 
