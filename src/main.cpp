@@ -65,7 +65,7 @@ void setup()
 
   Serial.print(F("\nStart WiFiWebServer on ")); Serial.println(BOARD_NAME);
   Serial.println(WIFININA_GENERIC_VERSION);
-
+  
   // check for the WiFi module:
   if (WiFi.status() == WL_NO_MODULE)
   {
