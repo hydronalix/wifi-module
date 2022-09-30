@@ -68,6 +68,7 @@ void setup()
   
   // check for the WiFi module:
   if (WiFi.status() == WL_NO_MODULE)
+  
   {
     Serial.println(F("Communication with WiFi module failed!"));
     // don't continue

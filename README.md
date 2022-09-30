@@ -24,3 +24,9 @@ and, if it's reasonable:
 ## other ideas n stuffs
 * ability to download logfiles from SD over WiFi  
 * cloud connectivity via cellphone or some other WAN when not being used as a webserver       
+
+## Current state of things (charlie: 9-30-22)
+* the main.cpp is one of the example programs in the WifiNina_generic library 
+* currently, the program does not work for the hardware (Nano 33 iot)
+* I have attemoted to update the firmware for the arduino using the arduino IDE but was getting errors there as well
+* this Forum post suggests that my problem could be with the board instead of the software: https://forum.arduino.cc/t/arduino-nano-33-iot-nina-module-not-working/702029
