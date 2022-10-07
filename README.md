@@ -31,7 +31,7 @@ and, if it's reasonable:
 * I have attemoted to update the firmware for the arduino using the arduino IDE but was getting errors there as well
 * this Forum post suggests that my problem could be with the board instead of the software: https://forum.arduino.cc/t/arduino-nano-33-iot-nina-module-not-working/702029
 
-## Current state of things (charlie 10-6-22)
+## Current state of things (charlie: 10-6-22)
 * the main.cpp creates a web server that displays analog reads
 * I have switched from the WiFiNINA_Generic library to just the WiFiNINA library
 * This library works well in the arduino ide but has yet to be downloaded into this project (thus why we have errors)
