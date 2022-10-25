@@ -1,0 +1,3 @@
+[submodule "lib/WiFiNINA"]
+	path = lib/WiFiNINA
+	url = https://github.com/arduino-libraries/WiFiNINA
